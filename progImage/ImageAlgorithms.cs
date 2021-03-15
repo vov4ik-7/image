@@ -12,11 +12,10 @@ namespace BMP
 {
     public class ImageAlgorithms
     {
-        private string image { get; set; } = "3";
+        private string image { get; set; } = "1";
         private string type { get; set; } = ".bmp";
-        private string path { get; set; } = @"C:\Users\vlysy\Desktop\3";
-        private string justPath { get; set; } = @"C:\Users\vlysy\Desktop\";
-        private string myPath { get; set; } = @"D:\Навчання\IV курс\Обробка зображень\2";
+        private string path { get; set; } = @"C:\Desktop\1";
+        private string justPath { get; set; } = @"C:\Desktop\";
         private const int Padding = 23;
 
         public void PrintOriginalImageSize()
